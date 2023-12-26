@@ -1,10 +1,10 @@
-import { Button } from '@chakra-ui/button';
+import { Outlet } from 'react-router-dom';
 
 function App() {
   return (
     <main>
-      <div>Initial Commit</div>
-      <Button>Hello World</Button>
+      <div>THis is App</div>
+      <Outlet />
     </main>
   );
 }
