@@ -1,1 +1,2 @@
-npm run lint-staged
+#!/bin/bash
+yarn lint-staged
