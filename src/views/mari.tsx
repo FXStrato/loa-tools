@@ -35,12 +35,12 @@ export function MariView() {
   };
 
   return (
-    <div className='flex flex-col gap-4'>
+    <div className='flex flex-col gap-8'>
       <div className='flex w-full flex-col gap-2 text-center'>
         <h1 className='text-3xl'>Mari Shop Calculator</h1>
         <p>
-          Use this calculator to figure out if it is more worth to purchase from the Auction House
-          than it is from Mari's Shop
+          Use this calculator to figure out if it is more worth to purchase tier 3 mats from the
+          Auction House than it is from Mari's Shop
         </p>
       </div>
       <section className='flex items-center gap-2 align-middle'>
@@ -61,7 +61,9 @@ export function MariView() {
       <section>
         <TableContainer>
           <Table variant='striped'>
-            <TableCaption>Last Updated 1/1/2024</TableCaption>
+            <TableCaption>
+              If the gold value is greater than current AH price, buy from Mari
+            </TableCaption>
             <Thead>
               <Tr>
                 <Th>Item</Th>
